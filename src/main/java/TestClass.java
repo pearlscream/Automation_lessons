@@ -25,8 +25,8 @@ public class TestClass {
         }catch (InterruptedException e) {
             e.printStackTrace();
         }
-        WebElement fieldout = driver.findElement(By.id("header_logout"));
-        fieldout.click();
+        WebElement fieldout2 = driver.findElement(By.id("header_logout"));
+        fieldout2.click();
 
 /*
         WebDriver driver =  initChromeDriver();
