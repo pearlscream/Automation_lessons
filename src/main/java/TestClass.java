@@ -28,7 +28,7 @@ public class TestClass {
         WebElement fieldout = driver.findElement(By.id("header_logout"));
         fieldout.click();
 
-
+/*
         WebDriver driver =  initChromeDriver();
         driver.get("http://prestashop-automation.qatestlab.com.ua/admin147ajyvk0/");
         WebElement fieldlogin = driver.findElement(By.id("email"));
@@ -143,10 +143,11 @@ public class TestClass {
         WebElement configuration = driver.findElement(By.linkText("Конфигурация"));
         configuration.click();
         driver.navigate().refresh();
-        System.out.println("Section name: " + driver.getTitle());
+        System.out.println("Section name: " + driver.getTitle());*/
     }
     public static WebDriver initChromeDriver(){
         System.setProperty("webdriver.chrome.driver",TestClass.class.getResource("chromedriver.exe").getPath());
         return new ChromeDriver();
     }
 }
+
