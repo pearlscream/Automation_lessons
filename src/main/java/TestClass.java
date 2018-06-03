@@ -6,7 +6,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 public class TestClass {
     public static void main (String[] args){
 
-        /*WebDriver driver =  initChromeDriver();
+        WebDriver driver =  initChromeDriver();
         driver.get("http://prestashop-automation.qatestlab.com.ua/admin147ajyvk0/");
         WebElement fieldlogin = driver.findElement(By.id("email"));
         fieldlogin.sendKeys("webinar.test@gmail.com");
@@ -26,7 +26,7 @@ public class TestClass {
             e.printStackTrace();
         }
         WebElement fieldout = driver.findElement(By.id("header_logout"));
-        fieldout.click();*/
+        fieldout.click();
 
 
         WebDriver driver =  initChromeDriver();
